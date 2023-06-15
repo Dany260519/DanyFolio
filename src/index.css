@@ -1,8 +1,8 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Bruno Ace SC', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#presentation {
+  background-image: url('./components/my\ portfolio.jpeg');
+  width: 610px;
+  height: 553px;
+  margin: 1% 25%;
+  border: solid 1px;
+}
+
+#next {
+  float: right;
+  width: 200px;
+  height: 40px;
+}
+
+.buttons  {
+  border: solid 1px rgba(92, 91, 91, 0.765);
+  background: rgba(0, 0, 0, 0.192);
+  border-radius: 60px;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.489);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#prest {
+  color: rgb(255, 235, 106);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-shadow: 8px 6px 10px rgba(0, 0, 0, 0.619); ;
+}
+
+
+#formQuest{  
+  margin: 5% 33%;
+  width: 400px;
+  height: 150px;
+  border: groove 3px;
+}
+
+#formQuest, #presentation, .pages {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 8px 6px 10px 0px rgba(0, 0, 0, 0.516);
+}
+
+.pages, #formQuest {
+  background-image: url(./components/background.jpeg);
+  text-align: center;
+  color: rgb(253, 253, 253);
+}
+
+.pages {
+  width: 1000px;
+  height: 553px;
+  margin: 1% 10%;
+  border: solid 1px;
+}*/
